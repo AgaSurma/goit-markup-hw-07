@@ -1,0 +1,78 @@
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  row-gap: 30px;
+  width: 1200px;
+  margin: 0 auto;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 94px;
+  &__card {
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    font-size: 16px;
+    line-height: 1.9;
+    color: $secondaryColor;
+    position: relative;
+    &:hover,
+    &:focus {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+      cursor: pointer;
+      transition-duration: $transitionDuration;
+      transition-timing-function: $transitionTimingFunction;
+    }
+
+    &:focus .product__overlay {
+      opacity: 1;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transform: translatey(0);
+    }
+    &:hover .product__overlay {
+      opacity: 1;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      transform: translatey(0);
+    }
+  }
+  &__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 294px;
+    width: 370px;
+    margin: 0;
+    background: rgba(33, 150, 243, 0.9);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    opacity: 0;
+    transform: translatey(100%);
+  }
+}
+
+&__overlay-text {
+  margin-left: 24px;
+  margin-right: 45px;
+}
+&__card-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: $primaryColor;
+  margin-left: 15px;
+  padding-top: 18px;
+  margin-bottom: 18px;
+}
+&__card-property {
+  margin-bottom: 16px;
+  margin-left: 15px;
+}

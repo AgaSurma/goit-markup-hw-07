@@ -1,104 +1,104 @@
-.footer{
-    padding: 94px 0px;
-    background-color: #2f303a;
+.footer {
+  padding: 94px 0px;
+  background-color: #2f303a;
   font-weight: 400;
-}
-.footer__container{
+  &__container {
     max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-.footer__address-container{
-  font-style: normal;
-  line-height: 1.7;
-  color: #ffffff;
-  margin-right: 70px;
-}
-.footer__address{
-    margin: 20px 0px 10px 0px;
-}
-.footer__contact{
-    font-weight: 400;
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  &:focus,
-  &:hover {
-     color: $brandColor;
-  cursor: pointer;
-  transition-duration: $transitionDuration;
-  transition-timing-function: $transitionTimingFunction
-  }
-}
-.footer__social{
-    margin-right: 78px;
-}
-.footer__social-header{
-    font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-.footer__social-list{
+    margin: 0 auto;
     display: flex;
-  gap: 10px;
-  padding: 0;
-  padding-bottom: 30px;
-  justify-content: center;
-  margin-top: 14px;
-}
-.footer__social-icon-background{
-    width: 44px;
-  height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  &:hover,
-    &:focus {
-  background-color: $brandColor;
-  border: 1px solid $brandColor;
-  cursor: pointer;
-}
-}
-.footer__social-icon{
-    width: 20px;
-  height: 20px;
-  fill: #ffffff;
-  align-self: center;
-}
-.footer__contact-form{
+    justify-content: space-between;
+  }
+  &__address-container {
+    font-style: normal;
+    line-height: 1.7;
+    color: #ffffff;
+    margin-right: 70px;
+  }
+  &__address {
+    margin: 20px 0px 10px 0px;
+  }
+  &__contact {
+    font-weight: 400;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    &:focus,
+    &:hover {
+      color: $brandColor;
+      cursor: pointer;
+      transition-duration: $transitionDuration;
+      transition-timing-function: $transitionTimingFunction;
+    }
+  }
+  &__social {
+    margin-right: 78px;
+  }
+  &__social-header {
     font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-top: 14px;
-  color: #ffffff;
-}
-.footer__contact-email{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__social-list {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    padding-bottom: 30px;
+    justify-content: center;
+    margin-top: 14px;
+  }
+  &__social-icon-background {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    &:hover,
+    &:focus {
+      background-color: $brandColor;
+      border: 1px solid $brandColor;
+      cursor: pointer;
+    }
+  }
+  &__social-icon {
+    width: 20px;
+    height: 20px;
+    fill: #ffffff;
+    align-self: center;
+  }
+  &__contact-form {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 14px;
+    color: #ffffff;
+  }
+  &__contact-email {
     padding: 15px;
-  margin-top: 20px;
-  margin-right: 12px;
-  width: 358px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background: #2f303a;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer__button{
+    margin-top: 20px;
+    margin-right: 12px;
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: #2f303a;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &__button {
     display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-.footer__contact-icon{
+    align-items: center;
+    justify-content: center;
+  }
+  &__contact-icon {
     width: 24px;
-  height: 24px;
-  fill: #ffffff;
-  margin-left: 24px;
+    height: 24px;
+    fill: #ffffff;
+    margin-left: 24px;
+  }
 }

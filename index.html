@@ -29,13 +29,15 @@
             >Web<span class="logo--black">Studio</span>
           </a>
         </li>
-        <li class="page-header__item  page-header__item--active">
+        <li class="page-header__item page-header__item--active">
           <a class="page-header__link" href="index.html">Agencja</a>
         </li>
         <li class="page-header__item">
           <a class="page-header__link" href="portfolio.html">Portfolio</a>
         </li>
-        <li class="page-header__item"><a class="page-header__link" href="/"> Kontakt </a></li>
+        <li class="page-header__item">
+          <a class="page-header__link" href="/"> Kontakt </a>
+        </li>
       </ul>
       <ul class="page-header__contact">
         <li>
@@ -49,7 +51,9 @@
         </li>
         <li>
           <a class="page-header__contact-item" href="tel:48111111111"
-            ><svg class="page-header__contact-icon page-header__contact-icon--phone">
+            ><svg
+              class="page-header__contact-icon page-header__contact-icon--phone"
+            >
               <use
                 href="/goit-markup-hw-04/images/icons.svg#icon-smartphone"
               ></use></svg
@@ -360,7 +364,9 @@
     <footer class="footer">
       <div class="footer__container">
         <address class="footer__address-container">
-          <a class="logo" href="/">Web<span class="logo--white">Studio</span></a>
+          <a class="logo" href="/"
+            >Web<span class="logo--white">Studio</span></a
+          >
           <p class="footer__address">m. Warszawa, Aleje Jerozolimskie 21</p>
           <a class="footer__contact" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -421,11 +427,13 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal__close-button" data-modal-close><svg class="modal__close-button-icon">
-              <use
-                href="/goit-markup-hw-06/images/icons.svg#icon-close-button"
-              ></use>
-            </svg></button>
+        <button type="button" class="modal__close-button" data-modal-close>
+          <svg class="modal__close-button-icon">
+            <use
+              href="/goit-markup-hw-06/images/icons.svg#icon-close-button"
+            ></use>
+          </svg>
+        </button>
         <h2 class="modal__header">Zostaw swoje dane w formularzu poniżej</h2>
         <form class="modal__form">
           <label class="modal__form-label">
@@ -458,17 +466,21 @@
               class="modal__textarea"
             ></textarea>
           </label>
-          <label class="modal__checkbox-container"> 
-          <input type="checkbox" name="policy" class="modal__chceckox"/>
-          <span class="modal__chechkmark"></span>
-           <svg class="modal__check-icon">
+          <label class="modal__checkbox-container">
+            <input type="checkbox" name="policy" class="modal__chceckox" />
+            <span class="modal__chechkmark"></span>
+            <svg class="modal__check-icon">
               <use href="/goit-markup-hw-06/images/icons.svg#icon-check"></use>
             </svg>
-          <p class="modal__policy-check">
-            Oświadczam iż akceptuję
-            <span class="modal__policy-check--blue-undertext">Regulamin</span> i
-            <span class="modal__policy-check--blue-undertext">Politykę Prywatności.</span>
-          </p></label>
+            <p class="modal__policy-check">
+              Oświadczam iż akceptuję
+              <span class="modal__policy-check--blue-undertext">Regulamin</span>
+              i
+              <span class="modal__policy-check--blue-undertext"
+                >Politykę Prywatności.</span
+              >
+            </p></label
+          >
           <button type="submit" class="button modal__button">Wyślij</button>
         </form>
       </div>
