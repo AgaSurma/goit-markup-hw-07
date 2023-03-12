@@ -1,0 +1,39 @@
+.article {
+line-height: 1.7;
+letter-spacing: 0, 03em;
+color: $secondaryColor;
+padding: 94px 0px;
+}
+.article__list{
+width: 1200px;
+margin: 0 auto;
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0;
+gap: 30px;
+}
+.article__card{
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border: 1px solid #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article__icon{
+width: 70px;
+height: 70px;
+}
+.article__header{
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0, 03em;
+  color: $primaryColor;
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
